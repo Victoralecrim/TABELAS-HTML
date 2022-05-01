@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>tabelas</h1>
+    <h3>Tabela normal</h3>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>idade</th>
+            <th>telefone</th>
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>29</td>
+            <td>(46) 99999-9999</td>
+        </tr>
+
+        <tr>
+            <td>Patricia</td>
+            <td>40</td>
+            <td>(46) 99999-9999</td>
+        </tr>
+    </table>
+
+    <h3>Tabela com colspan</h3>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>idade</th>
+            <th colspan="2">telefone</th>
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>29</td>
+            <td>(46) 99999-9999</td>
+            <td>(46) 99999-9999</td>
+        </tr>
+
+        <tr>
+            <td>Patricia</td>
+            <td>40</td>
+            <td>(46) 99999-9999</td>
+            <td>(46) 99999-9999</td>
+        </tr>
+    </table>
+
+    <h3>Tabela com Rowspan</h3>
+    <table>
+        <tr>
+            <th>Sexo</th>
+            <th>Nome</th>
+            <th>idade</th>
+            <th colspan="2">telefone</th>
+        </tr>
+
+      <tr>
+          <td>M</td>
+          <td>João</td>
+          <td>29</td>
+          <td>(46) 99999-9999</td>
+          <td>(49) 88888-88888</td>
+      </tr>
+      <tr>
+          <td Rowspan="2">F</td>
+          <td>Fernanda</td>
+          <td>39</td>
+          <td>(46) 99999-9999</td>
+          <td>(49) 88888-88888</td>
+      </tr>
+      <tr>
+          <td>Patricia</td>
+          <td>45</td>
+          <td>(46) 99999-9999</td>
+          <td>(49) 88888-88888</td>
+      </tr>
+    </table>
+</body>
+
+</html>
